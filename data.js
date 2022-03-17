@@ -3,7 +3,7 @@ const projectDatas = [
     featuredImage: './assets/images/kadirsalami.jfif',
     name: 'Kadir Salami',
     qualification: 'Founder, Tiidelab Initiative',
-    description: 'Mr Kadir Salami is the founder of Tiidelab Initiative, He is the pioneer CEO of Techspecialist consulting ltd, a leading tech company in Abuja, Nigeria.',
+    description: 'Mr Kadir Salami is also the pioneer CEO of Techspecialist consulting ltd, a leading tech company in Abuja, Nigeria.',
   },
   {
     featuredImage: './assets/images/celeste.jpg',
@@ -15,25 +15,25 @@ const projectDatas = [
     featuredImage: './assets/images/tukura.jfif',
     name: 'Pishikeni Tukura',
     qualification: 'Quality Assurance Lead, Tiidelab Initiative',
-    description: 'Mr Tukura is the quality assurance lead of Tiidelab and also doubles as the Co-fpunder of Aya. He has proven expertise in fin tech solutions',
+    description: 'Mr Tukura is the Co-fpunder of Aya. He has proven expertise in fin tech solutions',
   },
   {
     featuredImage: './assets/images/shams.jfif',
     name: 'Shamsudeen Aderoju',
     qualification: 'Program Coordinator, Tiidelab Initiative',
-    description: 'Mr Shamsudeen is an expert in non-technical skills development, leadership, community development and SDG.s. He is responsible for the day to day runnings of Tiidelab',
+    description: 'Mr Shamsudeen is responsible for the day to day runnings of Tiidelab',
   },
   {
     featuredImage: './assets/images/bigbay.jfif',
     name: 'Ayodele Samuel',
-    qualification: 'Technical Support Engineer, Tiidelab Initiative',
-    description: 'A professional software engineer with numerous experiences in building amazing products.',
+    qualification: 'T.S.E, Tiidelab Initiative',
+    description: 'A professional software engineer.',
   },
   {
     featuredImage: './assets/images/arimoro.jfif',
     name: 'Olamilekan E. Arimoro',
-    qualification: 'Technical Support Engineer, Tiidelab Initiative',
-    description: 'A professional software engineer with numerous experiences in building amazing products.',
+    qualification: 'T.S.E, Tiidelab Initiative',
+    description: 'A professional software engineer.',
   },
 ];
 
@@ -46,8 +46,7 @@ document.querySelector('.keynote-speakers').innerHTML = projectDatas
   <div class="mentor-description">
   <h3>${data.name}</h3>
   <p class="mentor-qualification">${data.qualification}</p>
-  <p
-  >${data.description}</p
+  <p class="mentor-about">${data.description}</p
   >
   </div>
   </div>

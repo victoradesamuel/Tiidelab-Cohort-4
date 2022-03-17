@@ -105,7 +105,7 @@ img {
 }
 
 .intro-section {
-  margin-top: -520px;
+  margin-top: -580px;
   padding: 25px;
 }
 
@@ -298,6 +298,10 @@ footer img {
   font-size: 15px;
   line-height: 20px;
   font-style: italic;
+}
+
+.mentor-about {
+  max-width: 250px;
 }
 
 .hide-show-mentor {

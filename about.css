@@ -129,8 +129,8 @@ footer img {
 
 .event-description {
   position: absolute;
-  top: 150px;
-  left: 80px;
+  top: 120px;
+  left: 50px;
   background: none;
   font-family: "COCOGOOSE", sans-serif;
   color: black;
@@ -139,7 +139,8 @@ footer img {
 .event img {
   filter: hue-rotate(270deg);
   filter: opacity(60%);
-  width: 450px;
+  max-width: 400px;
+  padding: 10px;
   height: 300px;
 }
 
