@@ -1,0 +1,229 @@
+.about-intro {
+  margin-top: -500px;
+  text-align: center;
+}
+
+.about-intro span {
+  color: #ec5242;
+  line-height: 20px;
+  font-size: 25px;
+}
+
+.about-intro h1 {
+  font-family: "COCOGOOSE", sans-serif;
+  padding-top: 20px;
+  background-image: url("./assets/images/text-background.jpg");
+  background-size: cover;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 40px;
+  line-height: 45px;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+}
+
+.about-intro .intro-description {
+  line-height: 25px;
+  font-size: 20px;
+  background-color: white;
+  padding: 15px;
+  margin: 30px 0;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.action-call {
+  font-size: 18px;
+}
+
+.about-intro a {
+  color: black;
+  text-decoration: underline;
+  display: block;
+  font-weight: 900;
+  padding: 10px;
+}
+
+.conference-logo {
+  text-align: center;
+  padding: 20px;
+}
+
+.conference-title,
+.event-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.conference-title h2 {
+  padding: 20px;
+  font-size: 32px;
+}
+
+.conference-logo p {
+  line-height: 24px;
+  text-align: center;
+  padding-top: -10px;
+}
+
+footer img {
+  min-height: 50px;
+  max-width: 150px;
+}
+
+.logo-img img {
+  min-width: 100px;
+  min-height: 100px;
+  border: 2px solid #d3d3d3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.past-events {
+  border-top: 1px solid #d3d3d3;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.conference-title span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2px;
+  width: 50px;
+  margin-top: -20px;
+  margin-bottom: 30px;
+  background-color: #ec5242;
+}
+
+.event-title span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2px;
+  width: 50px;
+  margin-top: -5px;
+  margin-bottom: 30px;
+  background-color: #ec5242;
+}
+
+.events {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.event {
+  position: relative;
+}
+
+.event-description {
+  position: absolute;
+  top: 150px;
+  left: 80px;
+  background: none;
+  font-family: "COCOGOOSE", sans-serif;
+  color: black;
+}
+
+.event img {
+  filter: hue-rotate(270deg);
+  filter: opacity(60%);
+  width: 450px;
+  height: 300px;
+}
+
+.partners {
+  background-color: rgba(21, 20, 20, 0.871);
+  padding: 20px;
+}
+
+.partners h2 {
+  text-align: center;
+  color: white;
+}
+
+.partners-logo {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.partners-logo img {
+  min-height: 100px;
+  max-width: 100px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+footer small {
+  font-size: 20px;
+  line-height: 20px;
+  padding: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-intro {
+    margin-top: -450px;
+  }
+
+  .about-intro .intro-description {
+    margin-left: 370px;
+  }
+
+  .conference-logo p {
+    font-size: 20px;
+    text-align: center;
+    width: 800px;
+    margin-left: 250px;
+  }
+
+  .logo-img {
+    width: 40%;
+    margin: 40px auto;
+  }
+
+  .event-title h2 {
+    margin-bottom: 20px;
+  }
+
+  .events {
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 60px;
+    padding-bottom: 70px;
+  }
+
+  .partners {
+    display: none;
+  }
+
+  footer {
+    background-color: #272a31;
+    height: 200px;
+    color: white;
+  }
+
+  footer img {
+    background-color: white;
+    height: 50px;
+    max-width: 150px;
+  }
+}
