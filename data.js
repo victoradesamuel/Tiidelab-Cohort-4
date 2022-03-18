@@ -27,13 +27,13 @@ const projectDatas = [
     featuredImage: './assets/images/bigbay.jfif',
     name: 'Ayodele Samuel',
     qualification: 'T.S.E, Tiidelab Initiative',
-    description: 'A professional software engineer.',
+    description: 'A professional software engineer with numerous experiences in building amazing products.',
   },
   {
     featuredImage: './assets/images/arimoro.jfif',
     name: 'Olamilekan E. Arimoro',
     qualification: 'T.S.E, Tiidelab Initiative',
-    description: 'A professional software engineer.',
+    description: 'A professional software engineer with numerous experiences in building amazing products.',
   },
 ];
 
