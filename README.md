@@ -1,5 +1,5 @@
 # Tiidelab-Cohort-4
-> A personal professional portfolio of Victor Ade-Samuel
+> A microverse personal capstone project on TIIDELAB coding bootcamp conference in Abuja Nigeria.
 
 
 ## Built With
@@ -16,14 +16,17 @@
 
 
 ### Prerequisites
-- Good knowledge of Figma
 - Create Github repository
 - Have VSCode or choice text editor installed
 - Have Git installed
 - HTML/CSS Linters
+- Good github workflow
 
 ### Setup
 - Git clone - https://github.com/victoradesamuel/Tiidelab-Cohort-4
+- cd Tiidelab-Cohort-4
+- open file in preferred editor
+- Edit to your satisfaction
 - HTML, CSS Linter configuration - https://github.com/microverseinc/linters-config/tree/master/html-css
 
 
@@ -55,7 +58,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Microverse
-- Coding Partners
+- Original design idea by Cindy Shin in Behance
 
 ## 📝 License
 
