@@ -105,7 +105,7 @@ img {
 }
 
 .intro-section {
-  margin-top: -520px;
+  margin-top: -580px;
   padding: 25px;
 }
 
@@ -301,7 +301,7 @@ footer img {
 }
 
 .mentor-about {
-  max-width: 250px;
+  min-width: 80px;
 }
 
 .hide-show-mentor {
@@ -326,7 +326,7 @@ footer img {
 }
 
 .partners {
-  background-color: rgba(21, 20, 20, 0.871);
+  background-color: #272a31;
   padding: 20px;
 }
 
@@ -524,6 +524,10 @@ footer small {
     grid-template-columns: 1fr 1fr;
     width: 80%;
     margin: auto;
+  }
+
+  .mentor-about {
+    min-width: 160px;
   }
 
   .program-details {

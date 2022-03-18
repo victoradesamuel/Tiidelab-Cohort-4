@@ -15,7 +15,7 @@ const projectDatas = [
     featuredImage: './assets/images/tukura.jfif',
     name: 'Pishikeni Tukura',
     qualification: 'Quality Assurance Lead, Tiidelab Initiative',
-    description: 'Mr Tukura is the Co-fpunder of Aya. He has proven expertise in fin tech solutions',
+    description: 'Mr Tukura is the Co-founder of Aya. He has proven expertise in fin tech solutions',
   },
   {
     featuredImage: './assets/images/shams.jfif',
