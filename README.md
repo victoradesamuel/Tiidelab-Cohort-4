@@ -55,7 +55,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Microverse
-- Coding Partners
+- Original design idea by Cindy Shin in Behance
 
 ## 📝 License
 
